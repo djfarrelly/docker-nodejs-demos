@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Farrelly <daniel.j.farrelly@gmail.com> (http://danfarrelly.nyc)",
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "3.1.0",
+    "express": "4.14.0",
+    "express-session": "1.14.1",
+    "request": "2.75.0"
+  }
+}

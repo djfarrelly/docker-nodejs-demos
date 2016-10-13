@@ -1,0 +1,12 @@
+{
+  "name": "01-docker-run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Dan Farrelly <daniel.j.farrelly@gmail.com> (http://danfarrelly.nyc)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
