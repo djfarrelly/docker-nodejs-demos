@@ -1,5 +1,6 @@
 version: "2"
 services:
+
   # Our node services
   web:
     image: nodemon:6.8.0
@@ -7,11 +8,14 @@ services:
      - ./web:/app
     ports:
      - "8080:8080"
+    # These links will add DNS entries to make it easier to connect containers
     links:
      - redis
      - api
 
   api:
+    # We can use "build" instead of "image" to tell Docker Compose to build a new image
+    # from our Dockerfile then run that image in one step:
     build:
       context: ./api
     volumes:
@@ -19,8 +23,6 @@ services:
     ports:
      - "8081:80"
 
-  # Some other dependencies
+  # Other dependencies. These will be pulled from Docker hub automatically
   redis:
     image: redis:3.0
-  rabbitmq:
-    image: rabbitmq:3.6.5
