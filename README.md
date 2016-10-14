@@ -7,4 +7,4 @@ To run all the demos install Docker on your machine: https://www.docker.com/prod
 
 **Event**: https://www.meetup.com/JavaScript-New-York-City/events/234270938/
 
-**Slides**: https://docs.google.com/presentation/d/12-GUIDBITf6OWGRgZxytkaYz0ko2KQYJY8-FHG5LF3k/edit?usp=sharing
+**Slides**: https://docs.google.com/presentation/d/12-GUIDBITf6OWGRgZxytkaYz0ko2KQYJY8-FHG5LF3k/pub?start=false&loop=false&delayms=10000
